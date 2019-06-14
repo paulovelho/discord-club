@@ -1,0 +1,16 @@
+.control-label {
+  float: left;
+  text-align: left;
+  display: block;
+}
+
+input {
+	width: 90%;
+}
+button {
+	width: 100%;
+}
+
+.agree-span {
+	padding-top: 2px;
+}

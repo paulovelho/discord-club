@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Clube das pessoas que discordam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+  <link href='css/bootstrap.min.css' rel='stylesheet'>
+  <link href='css/bootstrap-responsive.min.css' rel='stylesheet'>
+  <link href='css/style.css' rel='stylesheet'>
+  <link href='css/discord.css' rel='stylesheet'>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons 
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="assets/ico/favicon.png"-->
+
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+  <div id="fb-root"></div>
+
+  <div class="container">
+    <div class="marketing">
+      <br/><br/>
+      <h1>Clube das pessoas que discordam de tudo</h1>
+      <p class="marketing-byline">Finalmente um lugar onde você pode discordar das pessoas que discordam de você!</p>
+
+      <div class="row">
+        <div class="span6">
+          <h3>Login</h3>
+
+          <div class="row-fluid">
+            <div class="span12">
+              <label for="name" class="control-label">E-mail:</label>
+              <input type="text" class="form-control" id="name" name="name" value="">
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span12">
+              <label for="email" class="control-label">Senha:</label>
+              <input type="password" class="form-control" id="email" name="email" value="">
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span12">
+              <button class="btn-success" onclick="login();">Entrar</button>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span12 alert" id="sentResponseLogin" style="display: none;"></div>
+          </div>
+
+        </div>
+
+        <div class="span6">
+          <h3>Cadastre-se</h3>
+
+          <div class="row-fluid">
+            <div class="span12">
+              <label for="name" class="control-label">Nome:</label>
+              <input type="text" class="form-control" id="name" name="name" value="">
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span12">
+              <label for="name" class="control-label">E-mail:</label>
+              <input type="text" class="form-control" id="name" name="name" value="">
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span6">
+              <label for="email" class="control-label">Senha:</label>
+              <input type="password" class="form-control" id="email" name="email" value="">
+            </div>
+            <div class="span6">
+              <label for="email" class="control-label">Confirmar Senha:</label>
+              <input type="password" class="form-control" id="email" name="email" value="">
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span2 right">
+              <input type="checkbox" id="agree" value="1" />
+            </div>
+            <div class="span10 left agree-span">
+              Li e concordo com os <a href="terms.html" target="_blank">termos de uso</a>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span12">
+              <button class="btn-primary" onclick="signUp();">Cadastrar-se</button>
+            </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span12 alert" id="sentResponseSignup" style="display: none;"></div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Footer
+  ================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-links">
+        <li>
+          <img title="Paulo Velho" alt="Paulo Velho" src="img/white_one.png" style="width: 100px;">
+        </li>
+        <li class="muted">&middot;</li>
+        <li><a href="https://twitter.com/paulovelho" title="paulovelho" target="_blank">@paulovelho</a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <!-- Le javascript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type='text/javascript' src='js/jquery.min.js'></script>
+  <script type='text/javascript' src='js/bootstrap/bootstrap.min.js'></script>
+</html>
