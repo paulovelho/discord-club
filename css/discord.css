@@ -2,6 +2,7 @@
   float: left;
   text-align: left;
   display: block;
+  width: 100%;
 }
 
 input {
